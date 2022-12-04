@@ -15,27 +15,37 @@ body {
 }
 header {
 	display: flex;
-	justify-content: space-between;
+	/* justify-content: space-between; */
 }
 .logo img {
 	height: 60%;
 }
 
-.one {
+
+.one  {
 	display: flex;
-	padding-left: 30%;
+	padding-left: 5%;
+	/* 	justify-content: space-around; */
+	/* justify-content: space-evenly; */
+	/* justify-content: space-around; */
+	/* margin: 10px 10px 10px 10px; */
 }
+.one a {
+	padding: 10px 10px 10px 20px;
+	margin: 2px 2px 2px 40px;/* donde dic3 vuelo se aleja mas */
+}
+
 
 .busca {
 	display: flex;
-	padding-left: 6%;
+	padding-left: 5%;
 }
 
 .ida {
 	/* 	padding-top: 10px;
 	padding-right:73%; */
 	display: flex;
-	padding-left: 6%;
+	padding-left: 5%;
 }
 
 .container1 {
@@ -81,17 +91,16 @@ header {
 	color: blueviolet;
 }
 
-.icono{
-	margin-bottom:-1px ;
+.icono {
+	margin-bottom: -1px;
 }
 
-
-.texto{
+.texto {
 	border: solid 1px #fff;
-	margin-left:38px;
+	margin-left: 38px;
 	padding-top: 5px;
 	padding-bottom: 15px;
-	margin-right: 38px;
+	margin-right: 36px;
 	margin-bottom: 18px;
 	border-radius: 1%;
 	background-color: #fff;
@@ -101,6 +110,4 @@ header {
 .texto a {
 	text-decoration: none;
 	font-size: 70%;
-	
-	
 }
