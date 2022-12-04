@@ -1,0 +1,86 @@
+* {
+	margin: 0px;
+	padding: 0px;
+	text-align: center;
+}
+html {
+	scroll-behavior: smooth;
+}
+body {
+	width: 90%;
+	max-width: 1200px;
+	margin: auto;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	cursor: pointer; /* aqui sale el dedito  */
+}
+header {
+	display: flex;
+	justify-content: space-between;
+}
+.logo img {
+	height: 60%;
+}
+
+.one {
+	display: flex;
+	padding-left: 30%;
+}
+
+.busca {
+	display: flex;
+	padding-left: 6%;
+}
+
+.ida {
+	/* 	padding-top: 10px;
+	padding-right:73%; */
+	display: flex;
+	padding-left: 6%;
+}
+
+.container1 {
+	background-color: rgb(240, 240, 240);
+}
+
+.letra1 {
+	padding-top: 2%;
+	color: #323256;
+	padding-bottom: 1%;
+	font-weight: 20%;
+}
+
+.iconos {
+	display: grid;
+	grid-template-columns: repeat(4, 1fr 1fr 1fr 1fr);
+	/* 	background-color: rgb(240, 240, 240); */
+	padding-left: 20%;
+	font-size: 10px;
+}
+
+.dos {
+	display: flex;
+	color: #323256;
+	padding-bottom: 1%;
+	padding-top: 3%;
+	padding-left: 4%;
+}
+.letra2 {
+	font-weight: 20%;
+}
+
+.iconos2 {
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	/* 	background-color: rgb(240, 240, 240); */
+	padding: 1px;
+}
+
+.iconos2 :hover {
+	/* 	color: #323256; */
+	text-decoration: none;
+	color: blueviolet;
+}
+
+.texto a {
+	text-decoration: none;
+}
