@@ -72,7 +72,7 @@ header {
 	display: grid;
 	grid-template-columns: repeat(4, 1fr);
 	/* 	background-color: rgb(240, 240, 240); */
-	padding: 1px;
+	padding: 1%;
 }
 
 .iconos2 :hover {
@@ -81,6 +81,26 @@ header {
 	color: blueviolet;
 }
 
+.icono{
+	margin-bottom:-1px ;
+}
+
+
+.texto{
+	border: solid 1px #fff;
+	margin-left:38px;
+	padding-top: 5px;
+	padding-bottom: 15px;
+	margin-right: 38px;
+	margin-bottom: 18px;
+	border-radius: 1%;
+	background-color: #fff;
+	text-align: start;
+}
+
 .texto a {
 	text-decoration: none;
+	font-size: 70%;
+	
+	
 }
