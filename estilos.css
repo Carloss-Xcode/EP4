@@ -16,6 +16,7 @@ body {
 header {
 	display: flex;
 	/* justify-content: space-between; */
+	background-color: #323256;
 }
 .logo img {
 	height: 60%;
@@ -24,6 +25,7 @@ header {
 .one {
 	display: flex;
 	padding-left: 5%;
+
 	/* 	justify-content: space-around; */
 	/* justify-content: space-evenly; */
 	/* justify-content: space-around; */
@@ -33,17 +35,24 @@ header {
 	padding: 10px 10px 10px 20px;
 	margin: 2px 2px 2px 40px; /* donde dic3 vuelo se aleja mas */
 	text-decoration: none;
+	color: #fff;
 }
+a:hover {
+	color: aqua;
+}
+
 .divOpcionSeparador {
 	height: 4px;
 	width: 50px;
-	background-color: #ffb612;
+	background-color: #fff;
 	padding-top: -10px;
 }
 
 .busca {
 	display: flex;
 	padding-left: 5%;
+	color: #fff;
+	background-color: #323256;
 }
 
 .ida {
@@ -51,6 +60,8 @@ header {
 	padding-right:73%; */
 	display: flex;
 	padding-left: 5%;
+	color: #fff;
+	background-color: #323256;
 }
 
 .container1 {
@@ -59,7 +70,7 @@ header {
 
 .letra1 {
 	padding-top: 2%;
-	color: #323256;
+	color: black;
 	padding-bottom: 1%;
 	font-weight: 20%;
 }
@@ -81,6 +92,7 @@ header {
 }
 .letra2 {
 	font-weight: 20%;
+	color: black;
 }
 
 .iconos2 {
@@ -115,4 +127,21 @@ header {
 .texto a {
 	text-decoration: none;
 	font-size: 70%;
+}
+
+footer {
+	display: grid;
+	background-color: #323256;
+	grid-template-columns: repeat(5, 1fr);
+	color: #fff;
+	font-size: 80%;
+}
+footer .columnas {
+	padding: 40px 5px 20px 5px;
+	
+}
+
+
+.columnas  div:hover {
+	color: aqua;
 }
